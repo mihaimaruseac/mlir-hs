@@ -791,9 +791,7 @@ affine.for %i0 = 0 to %0 {
  to the MemRef/Tensor. The <code>mask</code> type is an <code>i1</code> vector with a shape that
  matches how elements are written into the MemRef/Tensor, *after* applying
  any permutation. Elements whose corresponding mask element is <code>0</code> are
- masked out.</p><p>An optional SSA value <code>mask</code> of the same shape as the vector type may be
- specified to mask out elements. Elements whose corresponding mask element
- is <code>0</code> are masked out.</p><p>An optional boolean array attribute <code>in_bounds</code> specifies for every vector
+ masked out.</p><p>An optional boolean array attribute <code>in_bounds</code> specifies for every vector
  dimension if the transfer is guaranteed to be within the source bounds. If
  specified, the <code>in_bounds</code> array length has to be equal to the vector rank.
  If set to &quot;false&quot;, accesses (including the starting point) may run
