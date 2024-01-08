@@ -76,7 +76,7 @@ library
     , MLIR.Native.ExecutionEngine
     , MLIR.Native.FFI
     , MLIR.Native.Pass
-  other-modules:
+  autogen-modules:
       MLIR.AST.Dialect.Generated.Arith
     , MLIR.AST.Dialect.Generated.ControlFlow
     , MLIR.AST.Dialect.Generated.Func
